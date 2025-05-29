@@ -39,6 +39,7 @@ x128 snake.prg
 make TARGET=c16 xplus4
 
 xplus4 snake.prg
+
 ```
 
 ## Supported platforms

@@ -4,6 +4,7 @@ CC = cc65
 CA = ca65
 LD = cl65
 
+# Target platform
 c64dnn.prg: c64dnn.o 
 	$(LD) $(LDFLAGS) -o snake.prg main.o $(CC65_HOME)/lib/$(TARGET).lib
 
